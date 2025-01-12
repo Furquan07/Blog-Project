@@ -121,7 +121,7 @@ export default function CommentSection({ postId }) {
             alt=''
           />
           <Link
-            to={'/dashboard?tab=profile'}
+            to={'/DashBoard?tab=profile'}
             className='text-xs text-cyan-600 hover:underline'
           >
             @{currentUser.username}

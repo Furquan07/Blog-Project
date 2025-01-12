@@ -7,7 +7,7 @@ import DashUsers from '../components/DashUsers';
 import DashComments from '../components/DashComments';
 import DashboardComp from '../components/DashboardComp';
 
-export default function Dashboard() {
+export default function DashBoard() {
   const location = useLocation();
   const [tab, setTab] = useState('');
   useEffect(() => {
